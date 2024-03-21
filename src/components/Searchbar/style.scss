@@ -1,0 +1,76 @@
+.searchbar {
+    background-color: #141414;
+    margin:30px;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+
+    &__searchbar-input{
+        width: 500px;
+        border: none;
+        outline: none;
+        border-radius: inherit;
+        input{
+            color: #666666;
+        };    
+        input::placeholder {
+            color: #666666;
+            opacity: 1;
+        };
+
+        fieldset{
+            border: none;
+        }
+    }
+
+    &__info{
+  
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    &__search-icon{
+        color: #666666;
+    }
+
+    &__moon-icon{
+        background-color: #7c38ff;
+        padding: 6px 6px 3px 7px;
+        border-radius: 50%;
+    }
+
+    &__buttons{
+        display: flex;
+        color:white
+    }
+
+    &__buttons-sell,&__buttons-buy {
+        padding: 10px 20px;
+    }
+
+    &__buttons-sell{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: #2f2b2b
+    }
+
+    &__buttons-buy{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: linear-gradient(#460a53,#29025f);
+    }
+
+    &__profile{
+        display: flex;
+        margin-left: 20px;
+    }
+
+    &__down-arrow{
+        color:white
+    }    
+
+}
